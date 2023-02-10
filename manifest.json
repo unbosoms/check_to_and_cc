@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Check to and cc addresses",
+    "description": "Check to and cc",
+    "version": "1.0",
+    "author": "Yuta Sakai",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "y-base.info@digitech-ymg.org",
+            "strict_min_version": "78.0"
+        }
+    },
+    "background": {
+        "page": "background.html"
+    },
+    "permissions": [
+        "compose"
+    ]
+}
